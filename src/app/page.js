@@ -1,5 +1,4 @@
-import Image from "next/image";
-import ServicesSection from "./pages/ServicesSection";
+import ServicesSection from "./components/ServicesSection";
 
 export default function Home() {
   return (
