@@ -1,5 +1,5 @@
 import React from "react";
-import servicesData from "../../../public/data/services.json";
+import servicesData from "../../../../public/data/services.json";
 
 const ServicesSection = () => {
   const displayedServices = servicesData.slice(0, 6);
