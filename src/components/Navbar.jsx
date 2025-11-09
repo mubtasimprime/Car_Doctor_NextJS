@@ -57,6 +57,14 @@ const Navbar = () => {
           Contact
         </Link>
       </li>
+      <li>
+        <Link
+          href={"/posts"}
+          className="text-gray-700 hover:text-red-500 font-medium transition-colors"
+        >
+          Posts
+        </Link>
+      </li>
     </>
   );
 
