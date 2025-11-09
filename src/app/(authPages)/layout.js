@@ -1,15 +1,15 @@
+import Navbar from "@/components/Navbar";
 import React from "react";
-import Navbar from "../../components/Navbar";
 
-const MainLayout = ({ children }) => {
+const AuthLayout = ({ children }) => {
   return (
     <>
       <div className="max-w-[1140px] mx-auto">
-        <Navbar />
+        <Navbar></Navbar>
       </div>
       {children}
     </>
   );
 };
 
-export default MainLayout;
+export default AuthLayout;
